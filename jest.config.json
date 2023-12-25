@@ -1,6 +1,6 @@
 {
   "transform": {
-    "^.+\\.tsx?$": "ts-jest"
+    "^.+\\.ts?$": "esbuild-runner/jest"
   },
   "testRegex": "/test/.*test.ts",
   "testEnvironment": "node",
