@@ -6,6 +6,5 @@
   "testEnvironment": "node",
   "testPathIgnorePatterns": ["/node_modules/", "/__snapshots__"],
   "moduleFileExtensions": ["ts", "js"],
-  "transformIgnorePatterns": ["node_modules/(?!p-queue)"],
   "testTimeout": 15000
 }

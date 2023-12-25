@@ -7,7 +7,7 @@
 import * as duckdb from 'duckdb';
 import { ColumnInfo } from 'duckdb';
 import * as util from 'util';
-import PQueue from 'p-queue';
+import PQueue from '@oraichain/p-queue';
 
 type Callback<T> = (err: duckdb.DuckDbError | null, res: T) => void;
 
